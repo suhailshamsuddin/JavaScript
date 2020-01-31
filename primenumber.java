@@ -17,6 +17,7 @@ public class primenumber {
 		{
 			if(n%i==0){
 				System.out.println("the number is not prime");
+				isPrime=false;
 				break;
 			}
 			
